@@ -311,7 +311,21 @@ ul {
 }
 
 /* -------PORTFOLIO------- */
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter .item + .item {
+  margin-left: 8px;
+}
+
 .filter-button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: transparent;
+
   color: var(--title-text-color);
   background-color: var(--section-background-color);
 
@@ -329,7 +343,32 @@ ul {
   background-color: var(--accent-color);
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.projects .item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.projects-img {
+  display: block;
+}
+
+.projects-card {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .project-title {
+  margin-bottom: 4px;
   color: var(--title-text-color);
 
   font-size: 18px;
