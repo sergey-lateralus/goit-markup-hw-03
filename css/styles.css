@@ -53,6 +53,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+
   color: var(--accent-color);
 
   font-family: 'Raleway', sans-serif;
@@ -68,9 +69,9 @@ ul {
 
 /* Навигация */
 .main-nav {
-  border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav {
@@ -134,6 +135,7 @@ ul {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+
   background-color: var(--footer-background-color);
 }
 
@@ -142,6 +144,7 @@ ul {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+
   color: var(--primary-white-color);
 
   font-weight: 900;
@@ -183,6 +186,7 @@ ul {
 
 .list-title {
   margin-bottom: 10px;
+
   color: var(--title-text-color);
 
   font-size: 14px;
@@ -211,6 +215,7 @@ ul {
 
 .section-title {
   margin-bottom: 50px;
+
   color: var(--title-text-color);
 
   font-size: 36px;
@@ -233,6 +238,7 @@ ul {
 .team-section {
   padding-top: 94px;
   padding-bottom: 94px;
+
   background-color: var(--section-background-color);
 }
 
@@ -246,6 +252,7 @@ ul {
 
 .name-title {
   margin-bottom: 10px;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -268,6 +275,7 @@ ul {
 .site-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: var(--footer-background-color);
 }
 
@@ -333,7 +341,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   cursor: pointer;
 }
 
@@ -369,6 +376,7 @@ ul {
 
 .project-title {
   margin-bottom: 4px;
+
   color: var(--title-text-color);
 
   font-size: 18px;
